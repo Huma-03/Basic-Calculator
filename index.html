@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Beautiful Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <input type="text" id="result" readonly />
+      </div>
+      <div class="buttons">
+        <button onclick="appendToDisplay('÷')" class="operator" id="userinputs">
+          ÷
+        </button>
+        <button onclick="appendToDisplay('x')" class="operator" id="userinputs">
+          x
+        </button>
+        <button onclick="clearDisplay()" id="clear">C</button>
+        <button onclick="appendToDisplay('7')" id="userinputs">7</button>
+        <button onclick="appendToDisplay('8')" id="userinputs">8</button>
+        <button onclick="appendToDisplay('9')" id="userinputs">9</button>
+        <button onclick="appendToDisplay('-')" id="userinputs" class="operator">
+          -
+        </button>
+        <button onclick="appendToDisplay('4')" id="userinputs">4</button>
+        <button onclick="appendToDisplay('5')" id="userinputs">5</button>
+        <button onclick="appendToDisplay('6')" id="userinputs">6</button>
+        <button onclick="appendToDisplay('+')" id="userinputs" class="operator">
+          +
+        </button>
+        <button onclick="appendToDisplay('1')" id="userinputs">1</button>
+        <button onclick="appendToDisplay('2')" id="userinputs">2</button>
+        <button onclick="appendToDisplay('3')" id="userinputs">3</button>
+        <button onclick="calculate()" id="calc" class="operator">=</button>
+        <button onclick="appendToDisplay('0')" id="userinputs">0</button>
+        <button onclick="appendToDisplay('.')" id="userinputs">.</button>
+      </div>
+    </div>
+    <script src="index.js"> 
+    </script>
+  </body>
+</html>
